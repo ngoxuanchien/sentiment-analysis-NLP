@@ -1,7 +1,7 @@
-package hcmus.zingmp3.dataservice.mapper;
+package hcmus.sentiment.mapper;
 
-import hcmus.zingmp3.dataservice.dto.SentimentDataDTO;
-import hcmus.zingmp3.dataservice.entity.SentimentDataEntity;
+import hcmus.sentiment.dto.SentimentDataDTO;
+import hcmus.sentiment.entity.SentimentDataEntity;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 

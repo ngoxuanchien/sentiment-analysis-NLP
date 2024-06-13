@@ -1,6 +1,6 @@
-package hcmus.zingmp3.dataservice.service;
+package hcmus.sentiment.service;
 
-import hcmus.zingmp3.dataservice.dto.SentimentDataDTO;
+import hcmus.sentiment.dto.SentimentDataDTO;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 

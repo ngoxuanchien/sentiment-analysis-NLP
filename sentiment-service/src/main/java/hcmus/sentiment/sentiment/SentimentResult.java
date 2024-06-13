@@ -1,4 +1,4 @@
-package hcmus.zingmp3.dataservice.sentiment;
+package hcmus.sentiment.sentiment;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

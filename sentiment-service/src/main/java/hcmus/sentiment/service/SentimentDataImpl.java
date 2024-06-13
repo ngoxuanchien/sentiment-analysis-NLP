@@ -1,10 +1,10 @@
-package hcmus.zingmp3.dataservice.service;
+package hcmus.sentiment.service;
 
-import hcmus.zingmp3.dataservice.dto.SentimentDataDTO;
-import hcmus.zingmp3.dataservice.entity.SentimentDataEntity;
-import hcmus.zingmp3.dataservice.exception.ResourceNotFoundException;
-import hcmus.zingmp3.dataservice.mapper.SentimentDataMapper;
-import hcmus.zingmp3.dataservice.repository.SentimentDataRepository;
+import hcmus.sentiment.dto.SentimentDataDTO;
+import hcmus.sentiment.entity.SentimentDataEntity;
+import hcmus.sentiment.exception.ResourceNotFoundException;
+import hcmus.sentiment.mapper.SentimentDataMapper;
+import hcmus.sentiment.repository.SentimentDataRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;

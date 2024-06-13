@@ -1,7 +1,7 @@
-package hcmus.zingmp3.dataservice.controller;
+package hcmus.sentiment.controller;
 
-import hcmus.zingmp3.dataservice.dto.SentimentDataDTO;
-import hcmus.zingmp3.dataservice.service.SentimentDataService;
+import hcmus.sentiment.dto.SentimentDataDTO;
+import hcmus.sentiment.service.SentimentDataService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

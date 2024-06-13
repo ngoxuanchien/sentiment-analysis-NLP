@@ -1,4 +1,4 @@
-package hcmus.zingmp3.dataservice.entity;
+package hcmus.sentiment.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

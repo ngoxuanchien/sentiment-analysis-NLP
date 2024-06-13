@@ -1,4 +1,4 @@
-package hcmus.zingmp3.dataservice.sentiment;
+package hcmus.sentiment.sentiment;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

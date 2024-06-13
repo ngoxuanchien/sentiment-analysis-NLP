@@ -1,4 +1,4 @@
-package hcmus.zingmp3.dataservice.config;
+package hcmus.sentiment.config;
 
 import io.swagger.v3.oas.models.servers.Server;
 import org.springdoc.core.models.GroupedOpenApi;

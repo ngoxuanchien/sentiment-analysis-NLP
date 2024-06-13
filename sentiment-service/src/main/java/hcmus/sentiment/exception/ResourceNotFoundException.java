@@ -1,4 +1,4 @@
-package hcmus.zingmp3.dataservice.exception;
+package hcmus.sentiment.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

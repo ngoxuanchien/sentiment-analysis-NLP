@@ -1,13 +1,13 @@
-package hcmus.zingmp3.dataservice;
+package hcmus.sentiment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DataServiceApplication {
+public class SentimentServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DataServiceApplication.class, args);
+        SpringApplication.run(SentimentServiceApplication.class, args);
     }
 
 }

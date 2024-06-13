@@ -1,6 +1,6 @@
-package hcmus.zingmp3.dataservice.repository;
+package hcmus.sentiment.repository;
 
-import hcmus.zingmp3.dataservice.entity.SentimentDataEntity;
+import hcmus.sentiment.entity.SentimentDataEntity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

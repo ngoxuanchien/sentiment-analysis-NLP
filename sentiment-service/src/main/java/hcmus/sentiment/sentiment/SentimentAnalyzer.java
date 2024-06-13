@@ -1,4 +1,4 @@
-package hcmus.zingmp3.dataservice.sentiment;
+package hcmus.sentiment.sentiment;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
