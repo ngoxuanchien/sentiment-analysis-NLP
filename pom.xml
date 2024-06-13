@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>data-service</module>
+        <module>sentiment-service</module>
     </modules>
 
 
