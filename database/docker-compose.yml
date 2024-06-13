@@ -1,0 +1,21 @@
+services:
+  mysql-sentiment:
+    container_name: mysql-sentiment
+    image: mysql
+    environment:
+      MYSQL_HOST: '%'
+      MYSQL_ROOT_PASSWORD: sentiment
+      MYSQL_DATABASE: sentiment_data
+      MYSQL_USER: sentiment
+      MYSQL_PASSWORD: sentiment
+      MYSQL_TCP_PORT: 3311
+    volumes:
+      - ./database/mysql-sentiment-data:/data/mysql
+    ports:
+      - "3311:3311"
+    restart: always
+    networks:
+      sentiment-net:
+networks:
+  sentiment-net:
+      name: sentiment-net
